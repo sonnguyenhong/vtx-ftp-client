@@ -5,6 +5,7 @@ import java.net.Socket;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+import com.example.connection.FTPConnectionMode;
 import com.example.constants.FTPResponseCode;
 
 public class FTPClient {

@@ -1,4 +1,4 @@
-package com.example;
+package com.example.connection.impl;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -11,7 +11,9 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.concurrent.ExecutorService;
 
+import com.example.ControlSocketHandler;
 import com.example.common.UtilService;
+import com.example.connection.FTPConnectionMode;
 import com.example.constants.FTPResponseCode;
 
 public class FTPActiveMode implements FTPConnectionMode {

@@ -3,6 +3,8 @@ package com.example;
 import java.io.IOException;
 import java.util.Scanner;
 
+import com.example.connection.impl.FTPActiveMode;
+import com.example.connection.impl.FTPPassiveMode;
 import com.example.constants.FTPConnectionMode;
 
 public class App {
